@@ -40,11 +40,12 @@ The system allows users to input a city name and get the probability of wildfire
 
 ---
 
-## ▶️ Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/wildfire-prediction-ml.git
-cd wildfire-prediction-ml
+## Dataset
+This project uses MODIS Fire Data (2019–2024) from NASA FIRMS.  
+Since the dataset is too large, it is not stored in this repository.  
+
+🔗 Download here:https://firms.modaps.eosdis.nasa.gov/country/
+
 
 # Install dependencies
 pip install -r requirements.txt
